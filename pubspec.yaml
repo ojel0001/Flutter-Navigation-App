@@ -1,0 +1,35 @@
+name: flutter_application_1
+description: "A new Flutter project."
+
+# Prevents the package from being accidentally published to pub.dev.
+publish_to: 'none' 
+
+# Version and build number for your application.
+version: 1.0.0+1
+
+# SDK version required for this project.
+environment:
+  sdk: ">=3.5.4 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.2
+
+  # cupelation_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/Basic Flutter App - Brenda's.png
+    - assets/images/whales.png
+
+  fonts:
+    - family: SixtyfourConvergence
+      fonts:
+        - asset: assets/fonts/SixtyfourConvergence-Regular.ttf
