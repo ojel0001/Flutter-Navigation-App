@@ -39,9 +39,9 @@ class _BottomNavigationBarExampleState
   ];
 
   final List<Color> _navbarColors = [
-    Color(0xFFD9CBBD), // Home tab color
-    Color(0xFFCFCFCF), // Data tab color
-    Color(0xFFB5813C),
+    const Color(0xFFD9CBBD), // Home tab color
+    const Color(0xFFCFCFCF), // Data tab color
+    const Color(0xFFB5813C),
   ];
 
   void _onItemTapped(int index) {
@@ -107,7 +107,7 @@ class HomePage extends StatelessWidget {
         ),
         Expanded(
           child: Container(
-            color: Color(0xFFD9CBBD),
+            color: const Color(0xFFD9CBBD),
             alignment: Alignment.center,
             child: Transform.rotate(
               angle: 0.1,
