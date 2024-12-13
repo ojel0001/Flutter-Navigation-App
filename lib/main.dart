@@ -39,8 +39,8 @@ class _BottomNavigationBarExampleState
   ];
 
   final List<Color> _navbarColors = [
-    const Color(0xFFD9CBBD), // Home tab color
-    const Color(0xFFCFCFCF), // Data tab color
+    const Color(0xFFD9CBBD),
+    const Color(0xFFCFCFCF),
     const Color(0xFFB5813C),
   ];
 
@@ -56,9 +56,7 @@ class _BottomNavigationBarExampleState
       appBar: AppBar(
         title: const Text(
           'Flutter Navigation App',
-          style: TextStyle(
-              fontFamily: 'SixtyfourConvergence', // Use the custom font
-              fontSize: 16),
+          style: TextStyle(fontFamily: 'SixtyfourConvergence', fontSize: 16),
         ),
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
       ),
@@ -98,8 +96,7 @@ class HomePage extends StatelessWidget {
           child: Container(
             decoration: const BoxDecoration(
               image: DecorationImage(
-                image: AssetImage(
-                    'assets/images/whales.png'), // Replace with your asset path
+                image: AssetImage('assets/images/whales.png'),
                 fit: BoxFit.cover,
               ),
             ),
@@ -114,10 +111,9 @@ class HomePage extends StatelessWidget {
               child: Text(
                 'Sunny',
                 style: Theme.of(context).textTheme.headlineMedium?.copyWith(
-                  fontFamily: 'SixtyfourConvergence', // Use the custom font
-                  fontSize: 48,
+                      fontFamily: 'SixtyfourConvergence',
+                      fontSize: 48,
                       color: Colors.white,
-                      
                     ),
               ),
             ),
